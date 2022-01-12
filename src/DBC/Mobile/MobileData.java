@@ -25,16 +25,16 @@ public class MobileData {
         MobileData mobileData = new MobileData();
         System.out.println("Brand: "+mobileData.brand+"\n"+
                 "Model Nmae: "+mobileData.modelName+"\n"+
-                "Ram: "+mobileData.ramInGb+"\n"+
-                "Rom: "+mobileData.romInGb+"\n"+
+                "Ram: "+mobileData.ramInGb+"Gb"+"\n"+
+                "Rom: "+mobileData.romInGb+"Gb"+"\n"+
                 "Screen Size: "+mobileData.screenSize+"\n"+
                 "Price: "+mobileData.price+"\n"+
                 "EMI: "+mobileData.isEMIOption+"\n"+
                 "USB Type: "+mobileData.usbCharger+"\n"+
-                "Camera: "+mobileData.cameraMegapixel+"\n"+
-                "Maximum Storage: "+mobileData.maximumStorageCapacity+"\n"+
+                "Camera: "+mobileData.cameraMegapixel+"Mp"+"\n"+
+                "Maximum Storage: "+mobileData.maximumStorageCapacity+"Gb"+"\n"+
                 "Color: "+mobileData.color+"\n"+
-                "Battery: "+mobileData.batteryCapacityInMh);
+                "Battery: "+mobileData.batteryCapacityInMh+"Mh");
 
     }
 
